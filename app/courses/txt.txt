@@ -1,0 +1,125 @@
+put this article in this code : <div className="toggle-content p-4">
+      {/* Toggle Button */}
+      <button
+        onClick={toggleVisibility}
+        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mb-4"
+      >
+        {isVisible ? "Hide Content" : "Show Content"}
+      </button>
+
+      {/* Content Section */}
+      {isVisible && (
+        <div className="flex flex-col gap-2">
+          <h5 className="font-semibold">1. Introduction to Web Development</h5>
+          <ul className="ml-5">
+            <li>Overview of front-end and back-end technologies.</li>
+            <li>Tools and frameworks used in web development.</li>
+          </ul>
+
+          <h5 className="font-semibold">2. Mastering HTML</h5>
+          <ul className="ml-8">
+            <li>Structuring web pages using HTML elements.</li>
+            <li>Building forms, tables, and multimedia integration.</li>
+          </ul>
+
+          <h5 className="font-semibold">3. Styling with CSS</h5>
+          <ul className="ml-8">
+            <li>Designing websites with CSS styles and layouts.</li>
+            <li>Using responsive design techniques for all devices.</li>
+          </ul>
+
+          <h5 className="font-semibold">4. Programming with JavaScript</h5>
+          <ul className="ml-8">
+            <li>Adding interactivity to websites using JavaScript.</li>
+            <li>Learning variables, functions, and DOM manipulation.</li>
+          </ul>
+
+          <h5 className="font-semibold">5. Version Control with Git</h5>
+          <ul className="ml-8">
+            <li>Setting up and using Git for version control.</li>
+            <li>Collaborating on projects using GitHub repositories.</li>
+          </ul>
+
+          <h5 className="font-semibold">6. Frameworks Overview</h5>
+          <ul className="ml-8">
+            <li>Introduction to React and Angular frameworks.</li>
+            <li>Basics of Node.js and Express for back-end development.</li>
+          </ul>
+
+          <h5 className="font-semibold">7. Building and Deploying Projects</h5>
+          <ul className="ml-8">
+            <li>Developing a fully functional website from scratch.</li>
+            <li>Testing, debugging, and deploying projects online.</li>
+          </ul>
+
+          <h1 className="py-5 text-3xl font-semibold">
+            Why Choose Our Course?
+          </h1>
+          <ul className="flex flex-col gap-2 ml-8">
+            <li>
+              <span className="font-semibold">Comprehensive Curriculum:</span>{" "}
+              Covering front-end and back-end development.
+            </li>
+            <li>
+              <span className="font-semibold">Hands-on Projects:</span> Build a
+              portfolio of real-world projects.
+            </li>
+            <li>
+              <span className="font-semibold">Lifetime Resources:</span> Access
+              to all course materials forever.
+            </li>
+            <li>
+              <span className="font-semibold">Certification:</span> Gain an
+              industry-recognized certificate.
+            </li>
+          </ul>
+
+          <h1 className="py-5 text-3xl font-semibold">Who Should Enroll?</h1>
+          <ul className="flex flex-col gap-2 ml-8">
+            <li>Beginners with no prior coding experience.</li>
+            <li>Freelancers expanding their service offerings.</li>
+            <li>Students or professionals aiming for a career shift.</li>
+          </ul>
+
+          <h1 className="py-5 text-3xl font-semibold">Course Details</h1>
+          <ul className="flex flex-col gap-2 ml-8">
+            <li>
+              <span className="font-semibold">Duration:</span> 30 days (2 hours
+              per day).
+            </li>
+            <li>
+              <span className="font-semibold">Start Date:</span> [Insert Start
+              Date Here].
+            </li>
+            <li>
+              <span className="font-semibold">Fee:</span> [Insert Fee Here].
+            </li>
+          </ul>
+
+          <h1 className="py-5 text-3xl font-semibold">How to Enroll</h1>
+          <ul className="flex flex-col gap-2 ml-8">
+            <li>
+              <span className="font-semibold">Website:</span> www.webstudio.online
+            </li>
+            <li>
+              <span className="font-semibold">Email:</span> websprofessor@gmail.com
+            </li>
+            <li>
+              <span className="font-semibold">Phone/WhatsApp:</span>{" "}
+              923040535970
+            </li>
+          </ul>
+
+          <h1 className="py-5 text-3xl font-semibold">Testimonials</h1>
+          <ul className="flex flex-col gap-2 ml-8">
+            <li>
+              "This course transformed my skills! Highly recommend." – John D.
+            </li>
+            <li>
+              "Practical and engaging. I built my first website in no time." –
+              Sarah K.
+            </li>
+          </ul>
+        </div>
+      )}
+    </div>
